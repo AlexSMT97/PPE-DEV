@@ -1,13 +1,12 @@
 <html>
     <head>
-        <title>Accueil - DevNote</title>
+        <title>Accueil - DevNote JUL</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="design/design.css" />  
         <link rel="shortcut icon" type="image/png" href="design/shortcut.png" />
     </head>
     <body>
         <header>
-            <h1>JLS</h1>
             <img src="design/logo.png" class="logo">
             <nav>
                 <a href="index.php" class="lien">Accueil</a>
