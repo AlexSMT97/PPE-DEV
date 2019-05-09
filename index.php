@@ -7,7 +7,6 @@
     </head>
     <body>
         <header>
-            <h1>Coucou les kneckes</h1>
             <img src="design/logo.png" class="logo">
             <nav>
                 <a href="index.php" class="lien">Accueil</a>
@@ -17,10 +16,6 @@
                 <a href="recherche.php" class="lien">Rechercher</a>
             </nav>
         </header>
-        <audio preload="auto" autoplay loop>
-        <source src="design/Song.mp3" type="audio/mp3" />
-        Votre navigateur n'est pas compatible
-        </audio>
         <input type="submit" value="Connexion" class="connexion" />
     </body>
     <footer>
