@@ -7,7 +7,6 @@
     </head>
     <body>
         <header>
-            <h1>JLS</h1>
             <img src="design/logo.png" class="logo">
             <nav>
                 <a href="index.php" class="lien">Accueil</a>
