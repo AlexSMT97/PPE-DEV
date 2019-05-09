@@ -19,6 +19,6 @@
         <input type="submit" value="Connexion" class="connexion" />
     </body>
     <footer>
-        Copyright @JLS 1990 - 2019
+        Copyright @JLS 1990 - 2019 héhéhééhéhéhéhé
     </footer>
 </html>
