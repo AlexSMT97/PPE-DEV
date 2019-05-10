@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Accueil - DevNote JUL</title>
+        <title>Accueil - DevNote</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="design/design.css" />  
         <link rel="shortcut icon" type="image/png" href="design/shortcut.png" />
@@ -19,6 +19,6 @@
         <input type="submit" value="Connexion" class="connexion" />
     </body>
     <footer>
-        Copyright @JLS 1990 - 2019 ntm
+        Copyright @JLS 1990 - 2019
     </footer>
 </html>
