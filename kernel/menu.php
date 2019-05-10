@@ -7,13 +7,13 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
+      <li class="nav-item <?php if ($_GET['page'] == NULL){echo "active";}?>">
+        <a class="nav-link" href="./">
           <i class="fa fa-home"></i>
           Accueil
           </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if ($_GET['page'] == 'commentaire'){echo "active";}?>">
         <a class="nav-link" href="./index.php?page=commentaire">
           <i class="fa fa-comments">
           </i>
@@ -21,19 +21,18 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">
+        <a class="nav-link disabled <?php if ($_GET['page'] == '???'){echo "active";}?>" href="#">
           <i class="fa fa-hashtag">
-            <span class="badge badge-warning">11</span>
+            <span class="badge badge-warning">??</span>
           </i>
-          Autre
+          En cour...
         </a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li class="nav-item dropdown <?php if ($_GET['page'] == '???'){echo "active";}?>">
+        <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-hashtag">
-            <span class="badge badge-primary">11</span>
           </i>
-          Autre
+          En cour...
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Jul</a>
