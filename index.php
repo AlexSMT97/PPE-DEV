@@ -13,7 +13,7 @@ error_reporting(0);
 	<link rel="stylesheet" href="./kernel/css/menu.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <title>Hello, world!</title>
+    <title>PPE-DEV</title>
   </head>
   <body>
 	<?php 
