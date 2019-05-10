@@ -14,11 +14,10 @@
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fa fa-hashtag">
-            <span class="badge badge-danger">11</span>
+        <a class="nav-link" href="./index.php?page=commentaire">
+          <i class="fa fa-comments">
           </i>
-          Autre
+          Commentaire
         </a>
       </li>
       <li class="nav-item">

@@ -6,7 +6,8 @@
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">$nom $prenom</strong>
-          <a href="#">Modifier</a>
+          <a href="#">Modifier <i class="fa fa-edit"></i>
+          </a>
         </div>
         <span class="d-block">$commentaire</span>
       </div>
@@ -16,7 +17,8 @@
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">$nom $prenom</strong>
-          <a href="#">Modifier</a>
+          <a href="#">Modifier <i class="fa fa-edit"></i>
+          </a>
         </div>
         <span class="d-block">$commentaire</span>
       </div>
@@ -26,7 +28,8 @@
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">$nom $prenom</strong>
-          <a href="#">Modifier</a>
+          <a href="#">Modifier <i class="fa fa-edit"></i>
+          </a>
         </div>
         <span class="d-block">$commentaire</span>
       </div>
