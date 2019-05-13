@@ -12,22 +12,24 @@
           Accueil
           </a>
       </li>
-      <li class="nav-item <?php if ($_GET['page'] == 'commentaire'){echo "active";}?>">
-        <a class="nav-link" href="./index.php?page=commentaire">
-          <i class="fa fa-comments">
-          </i>
-          Commentaire
-        </a>
-      </li>
-      <!--
-      <li class="nav-item">
-        <a class="nav-link disabled <?php if ($_GET['page'] == '???'){echo "active";}?>" href="#">
-          <i class="fa fa-hashtag">
-            <span class="badge badge-warning">??</span>
-          </i>
-          En cour...
-        </a>
-      </li>
+	<?php 
+		if ($_SESSION == true)
+		{
+			echo '
+				  <li class="nav-item">
+					<a class="nav-link ';
+
+			if ($_GET['page'] == 'bult'){echo "active";} 
+
+			echo '" href="./index.php?page=bult">
+					  <i class="fa fa-search">
+					  </i>
+					  Recherche
+					</a>
+				  </li>';
+			}
+    ?>
+	  <!--
       <li class="nav-item dropdown <?php if ($_GET['page'] == '???'){echo "active";}?>">
         <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-hashtag">
@@ -43,14 +45,33 @@
       </li>
     -->
     </ul>
-    <ul class="navbar-nav ">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.php?page=connexion">
-          <i class="fa fa-user">
-          </i>
-          Connexion
-        </a>
-      </li>
-    </ul>
+	<?php 
+		if ($_SESSION == false)
+		{
+			echo '
+				<ul class="navbar-nav ">
+				  <li class="nav-item">
+					<a class="nav-link" href="./index.php?page=connexion">
+					  <i class="fa fa-user">
+					  </i>
+					  Connexion
+					</a>
+				  </li>
+				</ul>';
+		}
+		else 
+		{
+			echo '
+				<ul class="navbar-nav ">
+				  <li class="nav-item">
+					<a class="nav-link" href="./index.php?page=deconnexion">
+					  <i class="fa fa-user">
+					  </i>
+					  Déconnexion
+					</a>
+				  </li>
+				</ul>';
+		}
+    ?>
   </div>
 </nav>
