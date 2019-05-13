@@ -41,8 +41,8 @@
           <a class="dropdown-item" href="#">Jul</a>
         </div>
       </li>
-    </ul>
     -->
+    </ul>
     <ul class="navbar-nav ">
       <li class="nav-item">
         <a class="nav-link" href="./index.php?page=connexion">
