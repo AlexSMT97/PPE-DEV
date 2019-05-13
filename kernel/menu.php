@@ -18,7 +18,9 @@
 			echo '
 				  <li class="nav-item">
 					<a class="nav-link ';
+
 			if ($_GET['page'] == 'bult'){echo "active";} 
+
 			echo '" href="./index.php?page=bult">
 					  <i class="fa fa-search">
 					  </i>
