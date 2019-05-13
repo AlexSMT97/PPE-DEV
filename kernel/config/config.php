@@ -3,15 +3,15 @@
     (
         /* Connexion SQL Machine */
         'SITE'            =>    'u907465831_gsb',
-        'HOST'            =>    '???',
+        'HOST'            =>    'sql27.main-hosting.eu',
         'USER'            =>    'u907465831_gsb',
-        'PASS'            =>    '???',
+        'PASS'            =>    'I8T9Qf58Vh2m',
     );
     
     try
     {
         $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-        $bdd = new PDO('mysql:host='.$database['sql27.main-hosting.eu'].';dbname='.$database['PPE-DEV'], $database['u907465831_gsb'], $database['I8T9Qf58Vh2m'], $pdo_options);
+        $bdd = new PDO('mysql:host='.$database['HOST'].';dbname='.$database['SITE'], $database['USER'], $database['PASS'], $pdo_options);
     }
 catch(Exception $e)
     {
