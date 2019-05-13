@@ -20,24 +20,24 @@
 	</tr>
     <tr>
 	  <td>Qualité de la présentation</td>
-	  <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" ></td>
+	  <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
     </tr>
 	<tr>
 	  <td>Pertinence de l’analyse critique du parcours de professionnalisation</td>
-	  <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" ></td>
+	  <td><input class="form-check-input" type="radio" name="exampleRadios11" id="exampleRadios2" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios11" id="exampleRadios2" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios11" id="exampleRadios2" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios11" id="exampleRadios2" value="option1" ></td>
     </tr>
 	<tr>
 	  <td>Variété des situations professionnelles rencontrées</td>
-	  <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" ></td>
+	  <td><input class="form-check-input" type="radio" name="exampleRadios12" id="exampleRadios3" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios12" id="exampleRadios3" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios12" id="exampleRadios3" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios12" id="exampleRadios3" value="option1" ></td>
     </tr>
 	
 	
@@ -97,17 +97,17 @@
 	</tr>
     <tr>
 	  <td>Pertinence d’usage de la gestion des configurations</td>
-	  <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
+	  <td><input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios2 id="exampleRadios1" value="option1" ></td>
     </tr>
 	<tr>
 	  <td>Efficacité de l’organisation de la veille technologique au service de la construction des compétences</td>
-	  <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
-      <td><input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" ></td>
+	  <td><input class="form-check-input" type="radio" name="exampleRadios21" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios21" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios21" id="exampleRadios1" value="option1" ></td>
+      <td><input class="form-check-input" type="radio" name="exampleRadios21" id="exampleRadios1" value="option1" ></td>
     </tr>
 	
 	
