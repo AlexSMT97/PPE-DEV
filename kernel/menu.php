@@ -19,15 +19,15 @@
           Commentaire
         </a>
       </li>
-      <!--
       <li class="nav-item">
-        <a class="nav-link disabled <?php if ($_GET['page'] == '???'){echo "active";}?>" href="#">
+        <a class="nav-link <?php if ($_GET['page'] == 'bult'){echo "active";}?>" href="./index.php?page=bult">
           <i class="fa fa-hashtag">
             <span class="badge badge-warning">??</span>
           </i>
-          En cour...
+          Bulletin de note
         </a>
       </li>
+	  <!--
       <li class="nav-item dropdown <?php if ($_GET['page'] == '???'){echo "active";}?>">
         <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fa fa-hashtag">
