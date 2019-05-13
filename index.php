@@ -35,9 +35,8 @@ error_reporting(0);
 				switch($_GET['page'])
 				{
 					case 'connexion':				require("./module/connexion/connexion.php");				break;
-					case 'commentaire':				require("./module/commentaire/commentaire.php");
-					case 'bult':				require("./module/bult/bult.php");
-					break;
+					case 'commentaire':				require("./module/commentaire/commentaire.php");			break;
+					case 'bult':					require("./module/bult/bult.php");							break;
 
 					default:					require("./module/start.php");						break;
 				}
