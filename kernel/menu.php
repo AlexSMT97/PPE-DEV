@@ -19,6 +19,7 @@
           Commentaire
         </a>
       </li>
+      <!--
       <li class="nav-item">
         <a class="nav-link disabled <?php if ($_GET['page'] == '???'){echo "active";}?>" href="#">
           <i class="fa fa-hashtag">
@@ -41,6 +42,7 @@
         </div>
       </li>
     </ul>
+    -->
     <ul class="navbar-nav ">
       <li class="nav-item">
         <a class="nav-link" href="./index.php?page=connexion">
