@@ -75,7 +75,7 @@
 		<td></td>
 		<td>
 			<center>
-			<h6>Note /10</h6>
+			<h6>Note <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">/10</h6>
 			</center>
 		</td>
 	</tr>
@@ -143,7 +143,7 @@
 		<td></td>
 		<td>
 			<center>
-			<h6>Note /10</h6>
+			<h6>Note <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">/10</h6>
 			</center>
 		</td>
 	</tr>
