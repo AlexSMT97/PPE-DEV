@@ -24,13 +24,14 @@ if(isset($_POST['formconnexion'])) {
 }
 ?>
 <form class="form-signin" method="POST" action="index.php?page=connexion">
+<form class="form-signin" action="./module/prof.php">
   <div class="text-center mb-4">
     <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
     <p>TEXT DU SEIGNEUR</p>
   </div>
 
   <div class="form-label-group">
-    <input type="email" id="inputEmail" class="form-control" name="mailconnect" placeholder="Email address" required="" autofocus="">
+    <input type="email" name='mailconnect' id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
     <label for="inputEmail">Email</label>
   </div>
 
@@ -46,3 +47,8 @@ if(isset($_POST['formconnexion'])) {
         echo '<font color="red">'.$erreur."</font>";
     }
 ?>
+    <input type="password" name='mdpconnect' nid="inputPassword" class="form-control" placeholder="Password" required="">
+    <label for="inputPassword">Mots de passe</label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" name='formconnexion'>Connexion</button>
+</form>

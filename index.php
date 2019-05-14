@@ -7,7 +7,7 @@ session_start();
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" type="image/png" href="./kernel/img/icon.png" />
+	<link rel="icon" type="image/png" href="./kernel/img/icon2.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./kernel/css/bootstrap.css">
 	<link rel="stylesheet" href="./kernel/css/menu.css">
