@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+session_start();
 ?>
 <!doctype html>
 <html lang="fr">
@@ -37,6 +37,7 @@ error_reporting(0);
 					case 'connexion':				require("./module/connexion/connexion.php");				break;
 					case 'commentaire':				require("./module/commentaire/commentaire.php");			break;
 					case 'bult':					require("./module/bult/bult.php");							break;
+					case 'deconnexion':					require("./module/deconnexion/deconnexion.php");							break;
 
 					default:					require("./module/start.php");						break;
 				}

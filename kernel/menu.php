@@ -13,7 +13,7 @@
           </a>
       </li>
 	<?php 
-		if ($_SESSION == true)
+		if ($_SESSION['id'] != NULL)
 		{
 			echo '
 				  <li class="nav-item">
@@ -46,7 +46,7 @@
     -->
     </ul>
 	<?php 
-		if ($_SESSION == false)
+		if ($_SESSION['id'] != NULL)
 		{
 			echo '
 				<ul class="navbar-nav ">
