@@ -47,3 +47,8 @@ if(isset($_POST['formconnexion'])) {
         echo '<font color="red">'.$erreur."</font>";
     }
 ?>
+    <input type="password" name='mdpconnect' nid="inputPassword" class="form-control" placeholder="Password" required="">
+    <label for="inputPassword">Mots de passe</label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" name='formconnexion'>Connexion</button>
+</form>
