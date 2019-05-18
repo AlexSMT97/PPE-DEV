@@ -1,31 +1,7 @@
 <link rel="stylesheet" href="./kernel/css/connexion.css">
-<?php
-
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=espace_membre', 'root', '');
-
-if(isset($_POST['formconnexion'])) {
-   $mailconnect = htmlspecialchars($_POST['mailconnect']);
-   $mdpconnect = sha1($_POST['mdpconnect']);
-   if(!empty($mailconnect) AND !empty($mdpconnect)) {
-      $requser = $bdd->prepare("SELECT * FROM membres WHERE mail = '". $_POST['mailconnect'] ."' AND motdepasse = '". $_POST['mdpconnect'] ."'");
-      $requser->execute(array($mailconnect, $mdpconnect));
-      $userexist = $requser->rowCount();
-      if($userexist == 1) {
-         $userinfo = $requser->fetch();
-         $_SESSION['id'] = $userinfo['id'];
-         $_SESSION['pseudo'] = $userinfo['pseudo'];
-         $_SESSION['mail'] = $userinfo['mail'];
-      } else {
-         $erreur = "Mauvais mail ou mot de passe !";
-      }
-   } else {
-      $erreur = "Tous les champs doivent être complétés !";
-   }
-}
-?>
-<form class="form-signin" method="POST" action="index.php?page=connexion">
 <form class="form-signin" action="./module/prof.php">
   <div class="text-center mb-4">
+    <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
     <p>TEXT DU SEIGNEUR</p>
   </div>
@@ -36,19 +12,8 @@ if(isset($_POST['formconnexion'])) {
   </div>
 
   <div class="form-label-group">
-    <input type="password" id="inputPassword" class="form-control" name="mdpconnect" placeholder="Password" required="">
+    <input type="password" name='mdpconnect' id="inputPassword" class="form-control" placeholder="Password" required="">
     <label for="inputPassword">Mots de passe</label>
   </div>
-  <button class="btn btn-lg btn-primary btn-block" name="formconnexion" type="submit">Connexion</button>
-</form>
-<?php
-    if(isset($erreur)) 
-	{
-        echo '<font color="red">'.$erreur."</font>";
-    }
-?>
-    <input type="password" name='mdpconnect' nid="inputPassword" class="form-control" placeholder="Password" required="">
-    <label for="inputPassword">Mots de passe</label>
-  </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit" name='formconnexion'>Connexion</button>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" name='submit'>Connexion</button>
 </form>

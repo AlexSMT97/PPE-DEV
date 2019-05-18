@@ -13,8 +13,6 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
-        <h2>HELLO <?php $_SESSION['pseudo']?></h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <h2>Heading</h2>
         <p>Ricardo Milos was born on November 11, 1977, along with his twin brother, in Rio, Brazil. However, he and his brother are adopted, with a Greek father and a Canadian mother. Ricardo is 5 foot and 8 inches tall and weighs 190 pounds. Ricardo has been modeling for over 10 years and his father is a professional photographer who taught him how to take good photos as well as how to pose in photos. </p>
         <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
