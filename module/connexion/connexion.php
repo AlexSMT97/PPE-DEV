@@ -46,8 +46,8 @@ $bdd = new PDO('mysql:host=127.0.0.1;dbname=test-ppe', 'root', '');
   </div>
 
   <div class="form-label-group">
-    <input type="password" name='mdpconnect' nid="inputPassword" class="form-control" placeholder="Password" required="">
+    <input type="password" name='mdpconnect' id="inputPassword" class="form-control" placeholder="Password" required="">
     <label for="inputPassword">Mots de passe</label>
   </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit" name='formconnexion'>Connexion</button>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" name='submit'>Connexion</button>
 </form>
