@@ -29,7 +29,7 @@
 	<?php 
 		if ($_GET['page'] == 'connexion')
 		{ 
-			require("./module/connexion/connexion.php");
+			require("./co.php");
 		}
 		else 
 		{
@@ -44,7 +44,7 @@
 			{
 				switch($_GET['page'])
 				{
-					case 'connexion':				require("./module/connexion/connexion.php");				break;
+					case 'connexion':				require("./co.php");				break;
 					case 'commentaire':				require("./module/commentaire/commentaire.php");				break;
 
 					default:					require("start.php");						break;
