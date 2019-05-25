@@ -45,7 +45,7 @@
 				switch($_GET['page'])
 				{
 					case 'connexion':				require("./co.php");				break;
-					case 'commentaire':				require("./module/commentaire/commentaire.php");				break;
+					case 'bulletin':				require("./bulletin.php");				break;
 					case 'prof':				require("./prof.php");				break;
 
 					default:					require("start.php");						break;

@@ -7,7 +7,7 @@
         try
         {
             $trouve = false;
-            $bdd = new PDO("mysql:host=localhost;dbname=ppe-test;charset=utf8", "root", "");
+            $bdd = new PDO("mysql:host=localhost;dbname=u907465831_gsb;charset=utf8", "root", "");
             $req = $bdd->query('SELECT * FROM prof');
             while ($donnees = $req->fetch())
             {

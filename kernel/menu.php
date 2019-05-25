@@ -14,7 +14,7 @@
           </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./module/bulletin/bulletin.php">
+        <a class="nav-link" href="index.php?page=bulletin">
           <i class="fa fa-hashtag">
             <span class="badge badge-danger">11</span>
           </i>
