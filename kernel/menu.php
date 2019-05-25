@@ -21,6 +21,14 @@
           Bulletin
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?page=recherche">
+          <i class="fa fa-hashtag">
+            <span class="badge badge-danger">11</span>
+          </i>
+          Recherche
+        </a>
+      </li>
     </ul>
     <ul class="navbar-nav ">
       <li class="nav-item">

@@ -17,6 +17,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="./kernel/img/icon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./kernel/css/bootstrap.css">
@@ -47,6 +48,7 @@
 					case 'connexion':				require("./co.php");				break;
 					case 'bulletin':				require("./bulletin.php");				break;
 					case 'prof':				require("./prof.php");				break;
+					case 'recherche':				require("./recherche.php");				break;
 
 					default:					require("start.php");						break;
 				}

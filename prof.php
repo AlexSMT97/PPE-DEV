@@ -1,4 +1,6 @@
 <?php
+    require ('./kernel/config.php');
+    
     session_start();
 
     if(!isset($_SESSION["logged"]))
@@ -7,7 +9,7 @@
         try
         {
             $trouve = false;
-            $bdd = new PDO("mysql:host=localhost;dbname=u907465831_gsb;charset=utf8", "root", "");
+
             $req = $bdd->query('SELECT * FROM prof');
             while ($donnees = $req->fetch())
             {
