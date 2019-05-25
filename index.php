@@ -27,6 +27,7 @@
     <title>PPE-SIO</title>
   </head>
   <body>
+	
 	<?php 
 		if ($_GET['page'] == 'connexion')
 		{ 
