@@ -21,7 +21,7 @@
 
   <div class="form-label-group">
     <input type="text" name="prenom" id="prenom" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-    <label for="inputEmail">Prenom</label>
+    <label for="inputEmail">Prénom</label>
   </div>
 
   <div class="form-label-group">

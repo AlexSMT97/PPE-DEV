@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="./kernel/css/menu.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <title>Hello, world!</title>
+    <title>PPE-SIO</title>
   </head>
   <body>
 	<?php 
