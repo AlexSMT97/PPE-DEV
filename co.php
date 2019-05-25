@@ -12,7 +12,7 @@
     }
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
-<form class="form-signin" action="prof.php" method="post">
+<form class="form-signin" action="index.php?page=prof" method="post">
   <div class="text-center mb-4">
     <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
@@ -21,7 +21,7 @@
 
   <div class="form-label-group">
     <input type="text" name="prenom" id="prenom" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-    <label for="inputEmail">Prénom</label>
+    <label for="inputEmail">Prenom</label>
   </div>
 
   <div class="form-label-group">

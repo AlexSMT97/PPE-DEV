@@ -24,7 +24,7 @@
     </ul>
     <ul class="navbar-nav ">
       <li class="nav-item">
-        <a class="nav-link" href="co.php">
+        <a class="nav-link" href="index.php?page=connexion">
           <i class="fa fa-user">
           </i>
           Connexion
