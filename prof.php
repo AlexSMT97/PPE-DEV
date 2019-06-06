@@ -28,7 +28,7 @@
                 die('Erreur : ' . $e->getMessage());
         }
     }
-    echo "Bienvenue ".$_SESSION["logged"].", vous êtes connecté !";
+    echo "Bonjour ".$_SESSION["logged"].", vous êtes connecté !";
 ?>
 <form action="index.php" method="post">
     <input id="logout" name="logout" type="hidden" value="logout">
