@@ -34,3 +34,12 @@
     <input id="logout" name="logout" type="hidden" value="logout">
     <input type="submit" value="Logout" />
 </form>
+
+    <li class="nav-item">
+        <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1U16O4g4Ll9c9InKc3HWuRHLlf7mB7jgO/edit#gid=1256962270">
+          <i class="fa fa-hashtag">
+            <span class="badge badge-danger">11</span>
+          </i>
+          Bulletin (Solution 2)
+        </a>
+      </li>

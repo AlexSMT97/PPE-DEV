@@ -21,14 +21,14 @@
           Bulletin
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.php?page=recherche">
+    <!--  <li class="nav-item">
+        <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1U16O4g4Ll9c9InKc3HWuRHLlf7mB7jgO/edit#gid=1256962270">
           <i class="fa fa-hashtag">
             <span class="badge badge-danger">11</span>
           </i>
-          Recherche
+          Bulletin (Solution 2)
         </a>
-      </li>
+      </li> -->
     </ul>
     <ul class="navbar-nav ">
       <li class="nav-item">
