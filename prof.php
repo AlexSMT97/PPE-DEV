@@ -34,7 +34,6 @@
     <input id="logout" name="logout" type="hidden" value="logout">
     <input type="submit" value="Logout" />
 </form>
-
     <li class="nav-item">
         <a class="nav-link" href="./kernel/img/Dab.png">
           <i class="fa fa-hashtag">
