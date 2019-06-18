@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if(isset($_POST["logout"]))
+    {
+        session_destroy();   
+    }
+?>
 <!doctype html>
 <html lang="fr">
   <head>

@@ -37,7 +37,7 @@
     <li class="nav-item">
         <a class="nav-link" href="./kernel/img/Dab.png">
           <i class="fa fa-hashtag">
-            <span class="badge badge-danger">11</span>
+            <span class="badge badge-danger">1</span>
           </i>
           Bulletin (Solution 2)
         </a>

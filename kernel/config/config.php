@@ -3,7 +3,7 @@
     (
         /* Connexion SQL Machine */
         'SITE'            =>    'u907465831_gsb',
-        'HOST'            =>    'localhost',
+        'HOST'            =>    'sql27.main-hosting.eu',
         'USER'            =>    'u907465831_gsb',
         'PASS'            =>    'I8T9Qf58Vh2m',
     );
