@@ -27,8 +27,7 @@
 if(!isset($_SESSION["logged"]))
 {
 	//recherche du joueur dans la liste
-	try
-	{
+
 		$trouve = false;
 		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
 		$req = $bdd->query('SELECT * FROM prof');
@@ -41,15 +40,7 @@ if(!isset($_SESSION["logged"]))
 			}
 		}
 
-		if(!$trouve)
-		{
-			header("Location:index.php");
-		}
-	}
-	catch (Exception $e)
-	{
-			die('Erreur : ' . $e->getMessage());
-	}
+
 }
 
 ?>
