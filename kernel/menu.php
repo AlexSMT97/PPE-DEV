@@ -40,7 +40,7 @@
 			}
     ?>
       <li class="nav-item">
-        <a class="nav-link" href="index.php?page=bulletin">
+        <a class="nav-link" href="https://www.google.fr/">
           <i class="fa fa-search">
             <span class="badge badge-danger">11</span>
           </i>
