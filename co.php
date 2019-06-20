@@ -1,16 +1,25 @@
 <?php
-    if(isset($_POST["logout"]))
-    {
-        session_destroy();   
-    }
+if(!isset($_SESSION["logged"]))
+{
+	//recherche du joueur dans la liste
 
-    if(isset($_SESSION["logged"]))
-    {
-        header("Location:index.php");   
-    }
+		$trouve = false;
+		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
+		$req = $bdd->query('SELECT * FROM prof');
+		while ($donnees = $req->fetch())
+		{
+			if($donnees['prenom'] == $_POST['prenom'] && $donnees['motdepasse'] == $_POST['mdp'] && $donnees['mail'] == $_POST['email'])
+			{
+				$trouve = true;
+				$_SESSION["logged"] = $_POST['prenom'];
+			}
+		}
+
+
+}
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
-<form class="form-signin" action="index.php" method="post">
+<form class="form-signin" action="index.php?page=connexion" method="post">
   <div class="text-center mb-4">
     <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>
