@@ -27,7 +27,13 @@
 									$_SESSION["logged"] = $_POST['prenom'];						
 									echo '<div class="alert alert-success" role="alert">
 										 cest bon
-										</div>'
+										</div>
+							<div class="pageContent">
+								<center>
+									<h3><span>Bienvenue '. $_POST['prenom'] .'</span></h3><br />
+								</center>
+								<meta http-equiv="refresh" content="3;url=./index.php" />
+							</div>	'
 										;
 								}
 							else {
