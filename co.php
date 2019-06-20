@@ -1,7 +1,10 @@
 <?php
-if(!isset($_SESSION["logged"]))
-{
-	//recherche du joueur dans la liste		
+
+	//recherche du joueur dans la liste
+
+		$trouve = false;
+		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
+		
 		
 		$check_prenom = $bdd->query("SELECT * FROM prof WHERE prenom='". $_POST['prenom'] ."'");
 		$check_prenom->setFetchMode(PDO::FETCH_OBJ);
@@ -42,7 +45,7 @@ if(!isset($_SESSION["logged"]))
 			  Mauvais prenom
 			</div>';
 		}
-}
+
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
 <form class="form-signin" action="index.php?page=connexion" method="post">
