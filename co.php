@@ -1,6 +1,4 @@
 <?php
-    session_start();
-
     if(isset($_POST["logout"]))
     {
         session_destroy();   
@@ -8,11 +6,11 @@
 
     if(isset($_SESSION["logged"]))
     {
-        header("Location:prof.php");   
+        header("Location:index.php");   
     }
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
-<form class="form-signin" action="index.php?page=prof" method="post">
+<form class="form-signin" action="index.php" method="post">
   <div class="text-center mb-4">
     <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Connexion</h1>

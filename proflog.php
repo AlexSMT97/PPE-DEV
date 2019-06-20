@@ -1,4 +1,26 @@
 <?php
+session_start();
+
+?>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="./kernel/img/icon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./kernel/css/bootstrap.css">
+	<link rel="stylesheet" href="./kernel/css/menu.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  </head>
+  <body>
+<?php
+				include ('kernel/menu.php');  
+                include ('kernel/slide.php'); 
+?>
+  <?php
     if(!isset($_SESSION["logged"]))
     {
         //recherche du joueur dans la liste
@@ -26,9 +48,13 @@
                 die('Erreur : ' . $e->getMessage());
         }
     }
+    echo "Bonjour ".$_SESSION["logged"].", vous êtes connecté !";
 ?>
 
-<form action="index.php" method="post">
-    <input id="logout" name="logout" type="hidden" value="logout">
-    <input type="submit" value="Logout" />
-</form>
+
+
+    <script src="./kernel/js/jquery-3.3.1.js" ></script>
+    <script src="./kernel/js/popper.js"></script>
+    <script src="./kernel/js/bootstrap.js"></script>
+  </body>
+</html>

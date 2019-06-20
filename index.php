@@ -3,9 +3,10 @@
 
     if(isset($_POST["logout"]))
     {
-        session_destroy();   
+        session_destroy();
     }
 ?>
+
 <!doctype html>
 <html lang="fr">
   <head>
@@ -22,7 +23,38 @@
     <title>PPE-SIO</title>
   </head>
   <body>
-	
+<?php
+if(!isset($_SESSION["logged"]))
+{
+	//recherche du joueur dans la liste
+	try
+	{
+		$trouve = false;
+		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
+		$req = $bdd->query('SELECT * FROM prof');
+		while ($donnees = $req->fetch())
+		{
+			if($donnees['prenom'] == $_POST['prenom'] && $donnees['motdepasse'] == $_POST['mdp'] && $donnees['mail'] == $_POST['email'])
+			{
+				$trouve = true;
+				$_SESSION["logged"] = $_POST['prenom'];
+			}
+		}
+
+		if(!$trouve)
+		{
+			header("Location:index.php");
+		}
+	}
+	catch (Exception $e)
+	{
+			die('Erreur : ' . $e->getMessage());
+	}
+}
+
+?>
+
+
 	<?php 
 		if ($_GET['page'] == 'connexion')
 		{ 
@@ -41,9 +73,8 @@
 			{
 				switch($_GET['page'])
 				{
-					case 'connexion':				require("./co.php");				break;
 					case 'bulletin':				require("./bulletin.php");				break;
-					case 'prof':				require("./prof.php");				break;
+					case 'prof':				require("./prof.php");						break;
 					case 'recherche':				require("./recherche.php");				break;
 
 					default:					require("start.php");						break;
