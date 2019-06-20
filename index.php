@@ -67,6 +67,7 @@ if(!isset($_SESSION["logged"]))
 					case 'bulletin':				require("./bulletin.php");				break;
 					case 'prof':				require("./prof.php");						break;
 					case 'recherche':				require("./recherche.php");				break;
+					case 'deco':				require("./deco.php");				break;
 
 					default:					require("start.php");						break;
 				}
