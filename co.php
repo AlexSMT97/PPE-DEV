@@ -1,4 +1,6 @@
 <?php
+if($_SESSION["logged"] != NULL)
+{
 	//recherche du joueur dans la liste
 
 		$trouve = false;
@@ -8,17 +10,17 @@
 		$check_prenom = $bdd->query("SELECT * FROM prof WHERE prenom='". $_POST['prenom'] ."'");
 		$check_prenom->setFetchMode(PDO::FETCH_OBJ);
 		$check_prenom = $check_prenom->fetch();
-		if($check_prenom->$_POST['prenom']== NULL)
+		if($check_prenom != NULL)
 			{								
 				$check_email = $bdd->query("SELECT * FROM prof WHERE mail='". $_POST['email'] ."'");
 				$check_email->setFetchMode(PDO::FETCH_OBJ);
 				$check_email = $check_email->fetch();
-				if($check_email->$_POST['email']== NULL)
+				if($check_email != NULL)
 					{								
 						$check_mdp = $bdd->query("SELECT * FROM prof WHERE motdepasse='". $_POST['mdp'] ."'");
 						$check_mdp->setFetchMode(PDO::FETCH_OBJ);
 						$check_mdp = $check_mdp->fetch();
-						if($check_mdp->$_POST['mdp']== NULL)
+						if($check_mdp != NULL)
 							{								
 								echo '<div class="alert alert-success" role="alert">
 									 cest bon
@@ -44,6 +46,7 @@
 			  Mauvais prenom
 			</div>';
 		}
+}
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
 <form class="form-signin" action="index.php?page=connexion" method="post">
