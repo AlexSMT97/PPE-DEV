@@ -1,6 +1,4 @@
 <?php
-if($_SESSION["logged"] != NULL)
-{
 	//recherche du joueur dans la liste
 
 		$trouve = false;
@@ -49,7 +47,6 @@ if($_SESSION["logged"] != NULL)
 			  Mauvais prenom
 			</div>';
 		}
-}
 ?>
 <link rel="stylesheet" href="./kernel/css/connexion.css">
 <form class="form-signin" action="index.php?page=connexion" method="post">
