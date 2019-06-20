@@ -25,13 +25,8 @@
 					  </i>
 					  Bulletin
 					</a>
-				  </li>';
-			}
-    ?>
- <?php 
-		if ($_SESSION == true)
-		{
-			echo '
+				  </li>
+				  
 				  <li class="nav-item">
 					<a class="nav-link ';
 			if ($_GET['page'] == 'bult'){echo "active";} 
@@ -72,7 +67,7 @@
 			echo '
 				<ul class="navbar-nav ">
 				  <li class="nav-item">
-					<a class="nav-link" href="./index.php">
+					<a class="nav-link" href="./index.php?page=deco">
 					  <i class="fa fa-user">
 					  </i>
 					  Déconnexion
