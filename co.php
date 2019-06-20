@@ -25,14 +25,7 @@
 								{		
 									$trouve = true;
 									$_SESSION["logged"] = $_POST['prenom'];						
-									echo '
-							<div class="pageContent">
-								<center>
-									<h3><span>Bienvenue '. $_POST['prenom'] .'</span></h3><br />
-								</center>
-								<meta http-equiv="refresh" content="3;url=./index.php" />
-							</div>	'
-										;
+									echo '<meta http-equiv="refresh" content="0;url=./index.php" />';
 								}
 							else {
 								echo'
