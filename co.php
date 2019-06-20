@@ -4,7 +4,7 @@
 		$trouve = false;
 		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
 		
-	if ($_SESSION != true)
+	if ($_SESSION != NULL)
 	{
 		$check_prenom = $bdd->query("SELECT * FROM prof WHERE prenom='". $_POST['prenom'] ."'");
 		$check_prenom->setFetchMode(PDO::FETCH_OBJ);
