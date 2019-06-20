@@ -21,10 +21,13 @@ if($_SESSION["logged"] != NULL)
 						$check_mdp->setFetchMode(PDO::FETCH_OBJ);
 						$check_mdp = $check_mdp->fetch();
 						if($check_mdp != NULL)
-							{								
+							{		
+								$trouve = true;
+								$_SESSION["logged"] = $_POST['prenom'];						
 								echo '<div class="alert alert-success" role="alert">
 									 cest bon
-									</div>';
+									</div>'
+									;
 							}
 						else {
 							echo'
