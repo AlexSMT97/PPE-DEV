@@ -19,29 +19,6 @@
     <title>PPE-SIO</title>
   </head>
   <body>
-<?php
-if(!isset($_SESSION["logged"]))
-{
-	//recherche du joueur dans la liste
-
-		$trouve = false;
-		$bdd = new PDO("mysql:host=sql27.main-hosting.eu;dbname=u907465831_gsb", "u907465831_gsb", "I8T9Qf58Vh2m");
-		$req = $bdd->query('SELECT * FROM prof');
-		while ($donnees = $req->fetch())
-		{
-			if($donnees['prenom'] == $_POST['prenom'] && $donnees['motdepasse'] == $_POST['mdp'] && $donnees['mail'] == $_POST['email'])
-			{
-				$trouve = true;
-				$_SESSION["logged"] = $_POST['prenom'];
-			}
-		}
-
-
-}
-
-?>
-
-
 	<?php 
 		if ($_GET['page'] == 'connexion')
 		{ 
@@ -70,7 +47,6 @@ if(!isset($_SESSION["logged"]))
 			}
 		}
 	?>
-
     <script src="./kernel/js/jquery-3.3.1.js" ></script>
     <script src="./kernel/js/popper.js"></script>
     <script src="./kernel/js/bootstrap.js"></script>
