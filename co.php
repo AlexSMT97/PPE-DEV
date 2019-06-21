@@ -30,7 +30,7 @@
 							else {
 								echo'
 								<div class="alert alert-danger" role="alert">
-								  Maivaise mots de passe
+								  Mauvais mot de passe
 								</div>';
 								include ('kernel/form_co.php');
 							}
@@ -38,7 +38,7 @@
 					else {
 						echo'
 						<div class="alert alert-danger" role="alert">
-						  Maivaise email
+						  Mauvaise adresse mail
 						</div>';
 						include ('kernel/form_co.php');
 					}
@@ -46,7 +46,7 @@
 			else {
 				echo'
 				<div class="alert alert-danger" role="alert">
-				  Mauvais prenom
+				  Mauvais prénom
 				</div>';
 				include ('kernel/form_co.php');
 			}
