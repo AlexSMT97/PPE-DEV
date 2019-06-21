@@ -150,7 +150,7 @@
     <td class="tg-0pky" colspan="7"><span style="font-weight:bold">Nom est signature des membres de la commission d'interrogation :</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky" colspan="7" rowspan="3"><input type="text" /></td>
+    <td class="tg-0pky" colspan="7" rowspan="3"><textarea rows="5" cols="55"></textarea></td>
   </tr>
   <tr>
   </tr>
@@ -160,19 +160,19 @@
     <td class="tg-0pky" colspan="7"><span style="font-weight:bold">Appréciation Globale</span></td>
   </tr>
   <tr>
-    <td class="tg-llyw" colspan="7"><input type="text" /></td>
+    <td class="tg-llyw" colspan="7"><textarea rows="5" cols="55"></textarea></td>
   </tr>
   <tr>
     <td class="tg-fymr" colspan="7">Questionnement complémentaire éventuel</td>
   </tr>
   <tr>
-    <td class="tg-llyw" colspan="7"><input type="text" /></td>
+    <td class="tg-llyw" colspan="7"><textarea rows="5" cols="55"></textarea></td>
   </tr>
   <tr>
     <td class="tg-0pky" colspan="7"><span style="font-weight:bold">Visa des membres de la commission d'interrogation :</span></td>
   </tr>
   <tr>
-    <td class="tg-llyw" colspan="7"><input type="text" /></td>
+    <td class="tg-llyw" colspan="7"><textarea rows="5" cols="55"></textarea></td>
   </tr>
 </table>
 <br />
