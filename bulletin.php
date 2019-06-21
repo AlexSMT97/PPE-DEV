@@ -379,7 +379,6 @@
 		<td align="left" valign=bottom><font color="#000000"><br></font></td>
 	</tr>
 	<tr>
-		<td height="17" align="left" valign=middle><font size=1>À cette fiche est annexé le document d’expression des besoins selon le modèle présenté en annexe IV-2.</font></td>
 		<td align="left" valign=bottom><br></td>
 		<td align="left" valign=bottom><br></td>
 		<td align="left" valign=bottom><br></td>
