@@ -40,6 +40,8 @@
 					case 'bulletin':				require("./bulletin.php");				break;
 					case 'recherche':				require("./recherche.php");				break;
 					case 'deco':				require("./deco.php");				break;
+					case 'e4':					require("./e4.php");				break;
+					case 'e6':					require("./e6.php");				break;
 
 					default:					require("start.php");						break;
 				}

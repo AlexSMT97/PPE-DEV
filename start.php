@@ -13,7 +13,7 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
-      <img src="./kernel/img/jul.jpg" width="70" height="90">
+      <img src="./kernel/img/bioalex.png" width="60" height="60">
         <h2>Alexandre</h2>
         <p>Etudiant en BTS SIO option SLAM, Développer principal du site PPE-SIO </p>
         <p><a class="btn btn-secondary" href="#" role="button">Biographie »</a></p>

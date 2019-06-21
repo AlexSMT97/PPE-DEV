@@ -42,7 +42,7 @@
       <li class="nav-item">
         <a class="nav-link" href="https://www.google.fr/">
           <i class="fa fa-search">
-            <span class="badge badge-danger">11</span>
+            <span class="badge badge-danger">10</span>
           </i>
           Recherche
         </a>
