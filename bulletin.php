@@ -21,11 +21,7 @@
 
 <body>
 <hr>
-	<p><center>
-		<h1>Overview</h1>
-		<A HREF="#table0">Feuille EVALUATION E4</A><br>
-		<A HREF="#table1">Feuille EVALUATION E6</A><br>
-		
+	<p><center>		
 	</center></p>
 <hr>
 <A NAME="table0"><h1>Sheet 1: <em>Feuille EVALUATION E4</em></h1></A>
