@@ -24,7 +24,7 @@
 	<p><center>		
 	</center></p>
 <hr>
-<A NAME="table0"><h1><em>Feuille EVALUATION E4</em></h1></A>
+<A NAME="table0"><h1><em>EVALUATION E4</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup width="208"></colgroup>
 	<colgroup width="72"></colgroup>
@@ -392,7 +392,7 @@
 </table>
 <!-- ************************************************************************** -->
 <hr>
-<A NAME="table1"><h1>Sheet 2: <em>Feuille EVALUATION E6</em></h1></A>
+<A NAME="table1"><h1><em>EVALUATION E6</em></h1></A>
 <table cellspacing="0" border="0">
 	<colgroup span="2" width="85"></colgroup>
 	<colgroup width="217"></colgroup>
