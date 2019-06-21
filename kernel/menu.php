@@ -30,7 +30,7 @@
 				  <li class="nav-item">
 					<a class="nav-link ';
 			if ($_GET['page'] == 'bult'){echo "active";} 
-			echo '" href="https://www.youtube.com/watch?v=X6MxGJ7qxck">
+			echo '" href="https://docs.google.com/spreadsheets/d/1U16O4g4Ll9c9InKc3HWuRHLlf7mB7jgO/edit#gid=1256962270">
             <i class="fa fa-hashtag">
             <span class="badge badge-danger">12</span>
 					  </i>
