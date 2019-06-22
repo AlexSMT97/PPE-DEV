@@ -1,4 +1,4 @@
-<h2>Fiche évalutation E6</h2>
+<h2>Fiche évaluation E6</h2>
 <br />
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
